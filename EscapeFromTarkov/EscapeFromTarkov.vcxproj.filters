@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{c71bb344-79de-44e9-8ebe-3827ee7d2c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\Logging">
+      <UniqueIdentifier>{fe747eca-8fd4-41f4-b4e8-fc97560e6dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eft">
+      <UniqueIdentifier>{5a119cdd-4404-40a4-bed4-1725d131e4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eft\structs">
+      <UniqueIdentifier>{618527cf-d5f5-49c9-9b5e-1bb425700455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eft\player">
+      <UniqueIdentifier>{00265a79-cdf2-4934-8e5a-cab0eddf9d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\vectors">
+      <UniqueIdentifier>{50a72727-93b8-416b-aa0e-fdbee837d009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eft\extract">
+      <UniqueIdentifier>{e8a067c4-09fe-43fe-83c4-ebea0eaf4baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eft\entity">
+      <UniqueIdentifier>{9f13dcf3-1520-4a0c-8d27-fea7e2504efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\kiface">
+      <UniqueIdentifier>{762abb19-31fa-4898-894f-75b176585ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eft\gameworld">
+      <UniqueIdentifier>{d944a548-16c7-4e3a-a297-d228cae2a39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{b218aeb0-6476-427e-a7d6-d30eab0dd42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\renderer">
+      <UniqueIdentifier>{368f9b3f-6bc7-45f9-a111-a89ee10ca886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\imgui">
+      <UniqueIdentifier>{4696461f-07bb-4a45-a50d-79d4316417f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\settings">
+      <UniqueIdentifier>{368d44c2-8550-42db-a554-692c705f7396}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils\vectors\vectors.cpp">
+      <Filter>utils\vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeFromTarkov.cpp" />
+    <ClCompile Include="renderer\renderer.cpp">
+      <Filter>core\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui-1.78\imgui.cpp">
+      <Filter>core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui-1.78\imgui_demo.cpp">
+      <Filter>core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui-1.78\imgui_draw.cpp">
+      <Filter>core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui-1.78\imgui_impl_dx11.cpp">
+      <Filter>core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="settings\settings.cpp">
+      <Filter>core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\Logging\Logging.hpp">
+      <Filter>utils\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="kiface\kiface.hpp">
+      <Filter>utils\kiface</Filter>
+    </ClInclude>
+    <ClInclude Include="eft\structs\structs.hpp">
+      <Filter>eft\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="eft\eft.hpp">
+      <Filter>eft</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\xorstr.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="eft\player\player.hpp">
+      <Filter>eft\player</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\vectors\vectors.hpp">
+      <Filter>utils\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="eft\extracts\exctracts.hpp">
+      <Filter>eft\extract</Filter>
+    </ClInclude>
+    <ClInclude Include="eft\entity\entity.hpp">
+      <Filter>eft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="eft\gameworld\gameworld.hpp">
+      <Filter>eft\gameworld</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.hpp">
+      <Filter>core\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="string.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\imconfig.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\imgui.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\imgui_impl_dx11.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\imgui_internal.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\imgui_tabs.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\stb_rect_pack.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\stb_sprintf.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\stb_textedit.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui-1.78\stb_truetype.h">
+      <Filter>core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="settings\settings.hpp">
+      <Filter>core\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\crc32.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\crypto.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\communication_structures.hpp">
+      <Filter>utils\kiface</Filter>
+    </ClInclude>
+    <ClInclude Include="kiface\driver_resource.hpp">
+      <Filter>utils\kiface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="utils\crc32.inl">
+      <Filter>utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
